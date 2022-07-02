@@ -1,0 +1,77 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 736px;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    width: 100%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    margin-top: -1.8rem;
+    margin-bottom: 4rem;
+}
+
+.inputTask {
+    padding: 1rem;
+    background-color: var(--gray-500);
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+}
+
+.inputTask:focus {
+    color: var(--gray-100);
+    outline: 1px solid var(--purple-dark);
+}
+
+.addTask {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: var(--blue-dark);
+    color: var(--gray-100);
+    line-height: 1.4;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.addTask:hover {
+    background-color: var(--blue);
+}
+
+.status {
+    margin-bottom: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+    font-weight: 700;
+}
+
+.status p:first-child {
+    color: var(--blue);
+}
+
+.status p:last-child {
+    color: var(--purple);
+}
+
+.status span {
+    padding: 2px 8px;
+    background-color: var(--gray-400);
+    font-size: 12px;
+    color: var(--gray-200);
+    line-height: 1rem;
+    border-radius: 999px;
+}
