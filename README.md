@@ -8,7 +8,6 @@ Demo: [todo-ignite](https://todo-desafio1-ignite.vercel.app/) ✨
 ## É construído com 
 
 *TODO Ignite* é construído com React e TypeScript. 
-Para o CSS foi utilizado 'styled-components'. 
 
 
 ## License
